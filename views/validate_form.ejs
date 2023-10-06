@@ -1,0 +1,17 @@
+
+<%- include("header"); %>
+
+<div class="container">
+	<h2>Isikukoodi valideerimine</h2>
+	<form action="/" method="POST">
+		<div class="form-group mb-3">
+			<label>Sisesta isikukood</label>
+			<input type="text" class="form-control" placeholder="Isikukood" name="id_code">
+		</div>
+		<div class="d-grid mt-3">
+			<button type="submit" class="btn btn-primary form-control">Valideeri</button>
+		</div>
+	</form>
+</div>
+
+<%- include("footer");%>
